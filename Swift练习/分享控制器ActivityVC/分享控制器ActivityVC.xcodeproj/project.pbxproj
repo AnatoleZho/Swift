@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1FB58F91EBF2AC4001A716C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB58F81EBF2AC4001A716C /* AppDelegate.swift */; };
+		F1FB58FB1EBF2AC4001A716C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB58FA1EBF2AC4001A716C /* ViewController.swift */; };
+		F1FB58FE1EBF2AC4001A716C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FB58FC1EBF2AC4001A716C /* Main.storyboard */; };
+		F1FB59001EBF2AC4001A716C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FB58FF1EBF2AC4001A716C /* Assets.xcassets */; };
+		F1FB59031EBF2AC4001A716C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FB59011EBF2AC4001A716C /* LaunchScreen.storyboard */; };
+		F1FB590D1EBF41FF001A716C /* StringReverserActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB590C1EBF41FF001A716C /* StringReverserActivity.swift */; };
+		F1FB590F1EBF475C001A716C /* WeChatActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB590E1EBF475C001A716C /* WeChatActivity.swift */; };
+		F1FB59111EBF528F001A716C /* HanggeActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB59101EBF528F001A716C /* HanggeActivity.swift */; };
+		F1FB59131EBF5438001A716C /* toSendImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1FB59121EBF5438001A716C /* toSendImage.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1FB58F51EBF2AC4001A716C /* 分享控制器ActivityVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "分享控制器ActivityVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FB58F81EBF2AC4001A716C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1FB58FA1EBF2AC4001A716C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1FB58FD1EBF2AC4001A716C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1FB58FF1EBF2AC4001A716C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1FB59021EBF2AC4001A716C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1FB59041EBF2AC4001A716C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FB590C1EBF41FF001A716C /* StringReverserActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringReverserActivity.swift; sourceTree = "<group>"; };
+		F1FB590E1EBF475C001A716C /* WeChatActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeChatActivity.swift; sourceTree = "<group>"; };
+		F1FB59101EBF528F001A716C /* HanggeActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanggeActivity.swift; sourceTree = "<group>"; };
+		F1FB59121EBF5438001A716C /* toSendImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toSendImage.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1FB58F21EBF2AC4001A716C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1FB58EC1EBF2AC4001A716C = {
+			isa = PBXGroup;
+			children = (
+				F1FB58F71EBF2AC4001A716C /* 分享控制器ActivityVC */,
+				F1FB58F61EBF2AC4001A716C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1FB58F61EBF2AC4001A716C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1FB58F51EBF2AC4001A716C /* 分享控制器ActivityVC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1FB58F71EBF2AC4001A716C /* 分享控制器ActivityVC */ = {
+			isa = PBXGroup;
+			children = (
+				F1FB58F81EBF2AC4001A716C /* AppDelegate.swift */,
+				F1FB58FA1EBF2AC4001A716C /* ViewController.swift */,
+				F1FB590C1EBF41FF001A716C /* StringReverserActivity.swift */,
+				F1FB590E1EBF475C001A716C /* WeChatActivity.swift */,
+				F1FB59101EBF528F001A716C /* HanggeActivity.swift */,
+				F1FB58FC1EBF2AC4001A716C /* Main.storyboard */,
+				F1FB59121EBF5438001A716C /* toSendImage.jpg */,
+				F1FB58FF1EBF2AC4001A716C /* Assets.xcassets */,
+				F1FB59011EBF2AC4001A716C /* LaunchScreen.storyboard */,
+				F1FB59041EBF2AC4001A716C /* Info.plist */,
+			);
+			path = "分享控制器ActivityVC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1FB58F41EBF2AC4001A716C /* 分享控制器ActivityVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FB59071EBF2AC4001A716C /* Build configuration list for PBXNativeTarget "分享控制器ActivityVC" */;
+			buildPhases = (
+				F1FB58F11EBF2AC4001A716C /* Sources */,
+				F1FB58F21EBF2AC4001A716C /* Frameworks */,
+				F1FB58F31EBF2AC4001A716C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "分享控制器ActivityVC";
+			productName = "分享控制器ActivityVC";
+			productReference = F1FB58F51EBF2AC4001A716C /* 分享控制器ActivityVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1FB58ED1EBF2AC4001A716C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = XiFeng;
+				TargetAttributes = {
+					F1FB58F41EBF2AC4001A716C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F1FB58F01EBF2AC4001A716C /* Build configuration list for PBXProject "分享控制器ActivityVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1FB58EC1EBF2AC4001A716C;
+			productRefGroup = F1FB58F61EBF2AC4001A716C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1FB58F41EBF2AC4001A716C /* 分享控制器ActivityVC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1FB58F31EBF2AC4001A716C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FB59031EBF2AC4001A716C /* LaunchScreen.storyboard in Resources */,
+				F1FB59131EBF5438001A716C /* toSendImage.jpg in Resources */,
+				F1FB59001EBF2AC4001A716C /* Assets.xcassets in Resources */,
+				F1FB58FE1EBF2AC4001A716C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1FB58F11EBF2AC4001A716C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FB59111EBF528F001A716C /* HanggeActivity.swift in Sources */,
+				F1FB590F1EBF475C001A716C /* WeChatActivity.swift in Sources */,
+				F1FB590D1EBF41FF001A716C /* StringReverserActivity.swift in Sources */,
+				F1FB58FB1EBF2AC4001A716C /* ViewController.swift in Sources */,
+				F1FB58F91EBF2AC4001A716C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1FB58FC1EBF2AC4001A716C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FB58FD1EBF2AC4001A716C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1FB59011EBF2AC4001A716C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FB59021EBF2AC4001A716C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1FB59051EBF2AC4001A716C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1FB59061EBF2AC4001A716C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1FB59081EBF2AC4001A716C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "分享控制器ActivityVC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XF.-----ActivityVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F1FB59091EBF2AC4001A716C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "分享控制器ActivityVC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XF.-----ActivityVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1FB58F01EBF2AC4001A716C /* Build configuration list for PBXProject "分享控制器ActivityVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FB59051EBF2AC4001A716C /* Debug */,
+				F1FB59061EBF2AC4001A716C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FB59071EBF2AC4001A716C /* Build configuration list for PBXNativeTarget "分享控制器ActivityVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FB59081EBF2AC4001A716C /* Debug */,
+				F1FB59091EBF2AC4001A716C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1FB58ED1EBF2AC4001A716C /* Project object */;
+}

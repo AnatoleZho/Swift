@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>(Background Fetch)后台抓取功能.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>UIAppDelegate相关处理.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>后台处理位置变化.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>后台执行长时间任务.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>后台抓取功能.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>后台播放音频.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>后台网络监测.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F128CCC21ED684E300C746E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F128CCD81ED6853D00C746E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F128CCEE1ED686B800C746E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F128CD121ED6D8C800C746E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F128CD2A1ED6F2A100C746E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F12EA1AA1ED513E500BDF7C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

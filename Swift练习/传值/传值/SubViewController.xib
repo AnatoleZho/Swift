@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubViewController" customModule="通知传值" customModuleProvider="target">
+            <connections>
+                <outlet property="isSwitch" destination="mxu-u7-zOZ" id="hH9-Xs-53A"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location  Service" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nX-UQ-YUE">
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="Qoi-MU-9UA"/>
+                        <constraint firstAttribute="height" constant="21" id="ge5-cE-wWX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mxu-u7-zOZ">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="49" id="R4u-dH-q6n"/>
+                        <constraint firstAttribute="height" constant="31" id="anN-O5-YFb"/>
+                    </constraints>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="mxu-u7-zOZ" firstAttribute="centerY" secondItem="2nX-UQ-YUE" secondAttribute="centerY" id="MD6-PR-0Tz"/>
+                <constraint firstAttribute="trailing" secondItem="mxu-u7-zOZ" secondAttribute="trailing" constant="20" id="TIC-b8-xZ4"/>
+                <constraint firstItem="2nX-UQ-YUE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="UUH-aZ-TA6"/>
+                <constraint firstItem="2nX-UQ-YUE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="mY7-UC-NNF"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

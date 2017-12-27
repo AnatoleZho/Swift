@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F19AE2891EEA410F0014DE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19AE2881EEA410F0014DE9C /* AppDelegate.swift */; };
+		F19AE28B1EEA410F0014DE9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19AE28A1EEA410F0014DE9C /* ViewController.swift */; };
+		F19AE28E1EEA410F0014DE9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19AE28C1EEA410F0014DE9C /* Main.storyboard */; };
+		F19AE2901EEA410F0014DE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19AE28F1EEA410F0014DE9C /* Assets.xcassets */; };
+		F19AE2931EEA410F0014DE9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19AE2911EEA410F0014DE9C /* LaunchScreen.storyboard */; };
+		F19AE29F1EEA75200014DE9C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19AE29E1EEA75200014DE9C /* MobileCoreServices.framework */; };
+		F19AE2A11EEAA2280014DE9C /* 等风的日子.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F19AE2A01EEAA2280014DE9C /* 等风的日子.mp3 */; };
+		F19AE2A31EEAA23C0014DE9C /* 一样爱着你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F19AE2A21EEAA23C0014DE9C /* 一样爱着你.mp3 */; };
+		F19AE4021EEE3CBF0014DE9C /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19AE4011EEE3CBF0014DE9C /* Photos.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F19AE2851EEA410F0014DE9C /* 摄像头和图片库.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "摄像头和图片库.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19AE2881EEA410F0014DE9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F19AE28A1EEA410F0014DE9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F19AE28D1EEA410F0014DE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F19AE28F1EEA410F0014DE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F19AE2921EEA410F0014DE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F19AE2941EEA410F0014DE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19AE29E1EEA75200014DE9C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F19AE2A01EEAA2280014DE9C /* 等风的日子.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "等风的日子.mp3"; sourceTree = "<group>"; };
+		F19AE2A21EEAA23C0014DE9C /* 一样爱着你.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "一样爱着你.mp3"; sourceTree = "<group>"; };
+		F19AE4011EEE3CBF0014DE9C /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F19AE2821EEA410F0014DE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19AE4021EEE3CBF0014DE9C /* Photos.framework in Frameworks */,
+				F19AE29F1EEA75200014DE9C /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F19AE27C1EEA410F0014DE9C = {
+			isa = PBXGroup;
+			children = (
+				F19AE2871EEA410F0014DE9C /* 摄像头和图片库 */,
+				F19AE2861EEA410F0014DE9C /* Products */,
+				F19AE29D1EEA75200014DE9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F19AE2861EEA410F0014DE9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F19AE2851EEA410F0014DE9C /* 摄像头和图片库.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F19AE2871EEA410F0014DE9C /* 摄像头和图片库 */ = {
+			isa = PBXGroup;
+			children = (
+				F19AE2A21EEAA23C0014DE9C /* 一样爱着你.mp3 */,
+				F19AE2A01EEAA2280014DE9C /* 等风的日子.mp3 */,
+				F19AE2881EEA410F0014DE9C /* AppDelegate.swift */,
+				F19AE28A1EEA410F0014DE9C /* ViewController.swift */,
+				F19AE28C1EEA410F0014DE9C /* Main.storyboard */,
+				F19AE28F1EEA410F0014DE9C /* Assets.xcassets */,
+				F19AE2911EEA410F0014DE9C /* LaunchScreen.storyboard */,
+				F19AE2941EEA410F0014DE9C /* Info.plist */,
+			);
+			path = "摄像头和图片库";
+			sourceTree = "<group>";
+		};
+		F19AE29D1EEA75200014DE9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F19AE4011EEE3CBF0014DE9C /* Photos.framework */,
+				F19AE29E1EEA75200014DE9C /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F19AE2841EEA410F0014DE9C /* 摄像头和图片库 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19AE2971EEA410F0014DE9C /* Build configuration list for PBXNativeTarget "摄像头和图片库" */;
+			buildPhases = (
+				F19AE2811EEA410F0014DE9C /* Sources */,
+				F19AE2821EEA410F0014DE9C /* Frameworks */,
+				F19AE2831EEA410F0014DE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "摄像头和图片库";
+			productName = "摄像头和图片库";
+			productReference = F19AE2851EEA410F0014DE9C /* 摄像头和图片库.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F19AE27D1EEA410F0014DE9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = XiFeng;
+				TargetAttributes = {
+					F19AE2841EEA410F0014DE9C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 22J227ATUY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F19AE2801EEA410F0014DE9C /* Build configuration list for PBXProject "摄像头和图片库" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F19AE27C1EEA410F0014DE9C;
+			productRefGroup = F19AE2861EEA410F0014DE9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F19AE2841EEA410F0014DE9C /* 摄像头和图片库 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F19AE2831EEA410F0014DE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19AE2931EEA410F0014DE9C /* LaunchScreen.storyboard in Resources */,
+				F19AE2901EEA410F0014DE9C /* Assets.xcassets in Resources */,
+				F19AE28E1EEA410F0014DE9C /* Main.storyboard in Resources */,
+				F19AE2A11EEAA2280014DE9C /* 等风的日子.mp3 in Resources */,
+				F19AE2A31EEAA23C0014DE9C /* 一样爱着你.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F19AE2811EEA410F0014DE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19AE28B1EEA410F0014DE9C /* ViewController.swift in Sources */,
+				F19AE2891EEA410F0014DE9C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F19AE28C1EEA410F0014DE9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19AE28D1EEA410F0014DE9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F19AE2911EEA410F0014DE9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19AE2921EEA410F0014DE9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F19AE2951EEA410F0014DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F19AE2961EEA410F0014DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F19AE2981EEA410F0014DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22J227ATUY;
+				INFOPLIST_FILE = "摄像头和图片库/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XF.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F19AE2991EEA410F0014DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22J227ATUY;
+				INFOPLIST_FILE = "摄像头和图片库/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XF.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F19AE2801EEA410F0014DE9C /* Build configuration list for PBXProject "摄像头和图片库" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19AE2951EEA410F0014DE9C /* Debug */,
+				F19AE2961EEA410F0014DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19AE2971EEA410F0014DE9C /* Build configuration list for PBXNativeTarget "摄像头和图片库" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19AE2981EEA410F0014DE9C /* Debug */,
+				F19AE2991EEA410F0014DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F19AE27D1EEA410F0014DE9C /* Project object */;
+}

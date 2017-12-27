@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  iOS国际化
+
+  Created by EastElsoft on 2017/6/23.
+  Copyright © 2017年 XiFeng. All rights reserved.
+*/
+
+"test1" = "testString1";
+"test2" = "testString2";

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
+        <capability name="box content view" minToolsVersion="7.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <collectionViewItem id="zCL-eR-cTs">
+            <connections>
+                <outlet property="view" destination="yO7-mS-0v3" id="kz6-oR-FNp"/>
+            </connections>
+        </collectionViewItem>
+        <box transparent="YES" boxType="custom" borderType="none" id="yO7-mS-0v3" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="168" height="145"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <view key="contentView" id="hKT-cS-O5G">
+                <rect key="frame" x="0.0" y="0.0" width="168" height="145"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <box autoresizesSubviews="NO" fixedFrame="YES" transparent="YES" boxType="custom" borderType="none" translatesAutoresizingMaskIntoConstraints="NO" id="Vge-d0-QbB" userLabel="View" customClass="IconViewBox" customModule="MediaLibraryLoader" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="-9" width="168" height="154"/>
+                        <view key="contentView" id="bAy-Uc-9sE">
+                            <rect key="frame" x="0.0" y="0.0" width="168" height="154"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b5N-6U-XQN">
+                                    <rect key="frame" x="8" y="13" width="152" height="17"/>
+                                    <textFieldCell key="cell" controlSize="small" lineBreakMode="truncatingMiddle" sendsActionOnEndEditing="YES" state="on" alignment="center" title="Label" id="XAw-gp-mFQ">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </textFieldCell>
+                                    <connections>
+                                        <binding destination="zCL-eR-cTs" name="value" keyPath="representedObject.name" id="GBr-DK-fGv"/>
+                                    </connections>
+                                </textField>
+                                <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fUs-il-ATp" userLabel="Image View">
+                                    <rect key="frame" x="10" y="32" width="148" height="119"/>
+                                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="7Tv-SJ-DRl"/>
+                                    <connections>
+                                        <binding destination="zCL-eR-cTs" name="value" keyPath="representedObject.icon" id="gBd-O6-qpT"/>
+                                    </connections>
+                                </imageView>
+                            </subviews>
+                        </view>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" red="0.70979999999999999" green="0.83530002999999997" blue="1" alpha="0.95999997999999997" colorSpace="deviceRGB"/>
+                        <connections>
+                            <binding destination="zCL-eR-cTs" name="transparent" keyPath="selected" id="519-Jy-lJf">
+                                <dictionary key="options">
+                                    <string key="NSValueTransformerName">NSNegateBoolean</string>
+                                </dictionary>
+                            </binding>
+                        </connections>
+                    </box>
+                </subviews>
+            </view>
+            <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+            <color key="fillColor" name="selectedControlColor" catalog="System" colorSpace="catalog"/>
+            <point key="canvasLocation" x="460" y="551.5"/>
+        </box>
+    </objects>
+</document>
