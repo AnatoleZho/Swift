@@ -10,6 +10,7 @@ var str = "Hello, playground"
  • 检查类型
  • 向下转型(Downcasting)
  • Any 和 AnyObject 的类型转换
+ 
  类型转换 可以判断实例的类型,也可以将实例看做是其父类或者子类的实例。
  类型转换在 Swift 中使用 is 和 as 操作符实现。这两个操作符提供了一种简单达意的方式去检查值的类型 或者转换它的类型。
  你也可以用它来检查一个类是否实现了某个协议,就像在 检验协议的一致性 (页 0)部分讲述的一样。
@@ -174,7 +175,7 @@ for thing in things {
         print("an (x, y) point at \(x), \(y)")
     case let movie as Movie:
         print("a movie called '\(movie.name)', dir. \(movie.director)")
-    case let stringConverter as String -> String:
+    case let stringConverter as (String) -> String:
         print(stringConverter("Michael"))
     default:
         print("something else")
@@ -255,113 +256,6 @@ print("theAceOfSpades: \(theAceOfSpades.description)")
 
 let heartSymbol = BlackjackCard.Suit.Hearts.rawValue
 //对于上面这个例子,这样可以使 Suit , Rank , 和 Values 的名字尽可能的短,因为它们的名字会自然的由定义 它们的上下文来限定。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

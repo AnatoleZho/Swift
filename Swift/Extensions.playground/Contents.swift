@@ -135,7 +135,7 @@ extension Int {
  */
 
 //定义该扩展之后，就可以对任意整数调用 repetitions 方法，实现的功能则是多次执行某任务：
-3.repetitions({
+3.repetitions(task: {
   print("Hello!")
 })
 
@@ -218,7 +218,7 @@ func printIntegerKinds(numbers: [Int]) {
     print("")
 }
 
-printIntegerKinds([3, 19, -27, 0, -6, 0, 7])
+printIntegerKinds(numbers: [3, 19, -27, 0, -6, 0, 7])
 // Prints "+ + - 0 - 0 +"
 /*
  函数 printIntegerKinds 的输入是一个 Int 数组值并对其字符进行迭代。在每次迭代过程中,考虑当前字符的 kind 计算属性,并打印出合适的类别描述。

@@ -117,7 +117,27 @@ class ViewController: UIViewController {
          上述代码使用 defer 语句来保证 open 有对应的 close，这个调用不管是否有抛出都会被执行。
          */
        
+        // 6. Assert
+        /*
+         断言可以引发程序终止，并不是被设计用来避免不在发生无效情况的。在那些无效条件有可能触发的情况下，断言是一种有效的调试手段，可以确保在应用发布之前，在开发过程中就可以关注这些条件。
+         
+         */
+        let number = 3
+        assert(number >= 3, "number 不大于 3")
         
+        // 7. Preconodition
+        /*
+         precondition 在一般的代码中并不多见,因为它是动态的,只会在程序运行时进行检查,适用于那些无法在编译期确定的风险情况
+            如果出现了诸如数据错误的情况, precondition 会提前终止程序,避免银数据错误造成更大的伤害
+            如果条件判断为 true,代码运行会继续进行
+            如果条件判断为 false,程序将终止
+            assert 是单纯地触发断言即停止程序,不会让你有机会将可能出错的设计走过这一关
+         
+         在满足 precondition 条件时,程序继续执行
+         在不满足 precondition 条件时,程序终止,并且将 precondition 中预设的错误信息输出在控制台上,precondition 避免了一一些无意义的操作
+         */
+        [1, 2, 3].isOutOfBounds(index: 2)
+        [1, 2, 3].isOutOfBounds(index: 3)
         
     }
 
@@ -127,6 +147,13 @@ class ViewController: UIViewController {
     }
 
 
+}
+
+extension Array {
+    func isOutOfBounds(index: Int) {
+        precondition((0..<endIndex).contains(index), "数组越界")
+        print("继续执行")
+    }
 }
 
 struct Item {

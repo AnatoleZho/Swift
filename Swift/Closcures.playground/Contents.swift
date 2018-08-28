@@ -2,7 +2,6 @@
 
 import UIKit
 
-var str = "Hello, playground"
 /*
  *闭包表达式（Closure Expressions）
  *尾随闭包（Trailing Closure）
@@ -220,6 +219,7 @@ func someFunctionWithEscapingClosure(completionHandler:@escaping () -> Void) {
 /*
  someFunctionWithEscapingClosure(_:) 函数接受一个闭包作为参数,该闭包被添加到一个函数外定义的数组中。如果你试图将这个参数标注为 @noescape ,你将会获得一个编译错误。
  将闭包标注为 @noescape 使你能在闭包中隐式地引用 self 。
+ 将闭包标注为 @escaping 必须在闭包中显式地引用 self .
  */
 class SomeClass {
     var x = 10
