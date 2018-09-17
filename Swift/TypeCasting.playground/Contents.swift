@@ -1,9 +1,6 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
-
-var str = "Hello, playground"
-
 //\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\类型转换（Type Casting）
 /*
  • 定义一个类层次作为例子

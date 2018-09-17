@@ -75,7 +75,7 @@ protocol FullyNamed {
     var fullName: String { get }
 }
 /*
- FullyNamed 协议除了要求协议的遵循者提供全名属性外,对协议遵循者的类型并没有特别的要求。这个协议表 示,任何遵循  FullyNamed 协议的类型,都具有一个可读的 String  类型实例属性 fullName  。
+ FullyNamed 协议除了要求协议的遵循者提供全名属性外,对协议遵循者的类型并没有特别的要求。这个协议表示,任何遵循  FullyNamed 协议的类型,都具有一个可读的 String  类型实例属性 fullName  。
  */
 
 //下面是一个遵循 FullyNamed 协议的简单结构体：
@@ -139,7 +139,7 @@ class LinearCongruentialGenerator: RandomNumberGenerator {
     let a = 3877.0
     let c = 29573.0
     func random() -> Double {
-        lastRandom = ((lastRandom * a + c) % m)
+        lastRandom = ((lastRandom * a + c).truncatingRemainder(dividingBy:m))
         return lastRandom / m
     }
 }
@@ -586,15 +586,75 @@ for object in objects {
 
 
 
+/////////******   协议扩展
+/*
+ 协议可以通过扩展来为遵循协议的类型提供属性,方法以及下标的实现. 通过这种方式,可以基于协议本身来实现这些功能, 而无需在每个遵循协议的类型中都重复同样的实现,也无需使用全局函数
+ */
+
+// 例如, 可以扩展 RandomNumberGenerateor 协议来提供 randomBool() 方法. 该方法使用哦协议中定义的 random() 方法来返回一个随机的 Bool 值:
+
+extension RandomNumberGenerator {
+    func randomBool() -> Bool {
+        return random() > 0.5
+    }
+}
+
+// 通过协议扩展,所有遵循协议的类型,都能获得这个扩展所增加的方法实现,无需任何额外修改:
+
+let generatorB = LinearCongruentialGenerator()
+print("Here's a random number: \(generatorB.random())")
+
+print("And here's a random Boolean: \(generatorB.randomBool())")
+
+
+//////**** 提供默认实现
+/*
+ 可以通过协议扩展来为协议要求的属性,方法,以及下标提供默认的实现.如果遵循协议的类型为这些要求提供了自己的实现,那么这些自定义实现将会替代扩展中的默认实现被使用.
+ 
+ 注意: 通过协议扩展为协议要求提供的默认实现和可选的协议要求不同. 虽然在这种情况下,遵循协议的类型都无需实现这些要求,但是通过扩展提供的默认实现可以直接调用,而无需使用可选链式调用.
+ */
+
+// 例如, PrettyTextResponsentable 协议继承自 TextRepresentable 协议,可以为其提供一个默认的 prettyTextualDescription 属性,只是简单地返回 texttualDescription 属性的值:
+
+extension PrettyTextRepresentable {
+    var prettyTextualDescription:String {
+        return textualDescription
+    }
+}
 
 
 
+///////*****    为协议扩展添加限制条件
+/*
+ 在扩展协议时,可以制定一些限制条件,只有遵循协议的类型满足这些限制条件时,才能获得协议扩展提供的默默实现.这些限制条件写在协议名之后,使用 where 子句来描述, 正如 Where 子句中所描述的.
+ */
 
+// 例如: 可以扩展 CollectionType 协议,但是只适用于集合中的元素遵循了 TextRepresentable 协议的情况:
 
+extension Collection where Iterator.Element: TextRepresentable {
+    var textrualDescription: String {
+            let itemAsText = self.map { $0.textualDescription }
+            return "[" + itemAsText.joined(separator: ", ") + "]"
+        }
+}
+/*
+ textualDescription 属性返回整个集合的文本描述,它将集合中的每个元素的文本描述以逗号分隔的方式连接起来,包在一对方括号中.
+ */
 
+// 结构体 Hanster, 它符合 TextRespresentable 协议,同时这里还有个装有 Hamster 的实例的数组:
 
+let murrayTheHamster = Hamster(name: "Murray")
+let morganTheHamster = Hamster(name: "Morgan")
+let mauriceTheHamster = Hamster(name: "Maurice")
+let hamsters = [murrayTheHamster, morganTheHamster, mauriceTheHamster]
 
+// 因为 Array 符合 CollectionType 协议,而数组中的元素又符合 TextRepresentable 协议,所以数组可以使用 textualDescription 属性得到数组内容的文本表示:
 
+print(hamsters.textrualDescription)
+
+/*
+ 注意: ???? 如果多个协议扩展都为同一个协议要求提供了默认实现, 而遵循协议的类型由同事满足这些协议扩展的限制条件,那么将会使用限制条件最多的那个协议扩展提供的默认实现.
+ */
 
 
 

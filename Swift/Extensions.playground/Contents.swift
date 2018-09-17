@@ -13,7 +13,8 @@ var str = "Hello, playground"
  • 嵌套类型
  扩展就是向一个已有的类、结构体、枚举类型或者协议类型添加新功能(functionality)。这包括在没有权限获 取原始源代码的情况下扩展类型的能力(即逆向建模)。扩展和 Objective-C 中的分类(categories)类 似。(不过与 Objective-C 不同的是,Swift 的扩展没有名字。)
  Swift 中的扩展可以:
- • 添加计算型属性和计算型静态属性 • 定义实例方法和类型方法
+ • 添加计算型属性和计算型静态属性
+ • 定义实例方法和类型方法
  • 提供新的构造器
  • 定义下标
  • 定义和使用新的嵌套类型
@@ -139,6 +140,10 @@ extension Int {
   print("Hello!")
 })
 
+3.repetitions {
+    print("Goodbye!")
+}
+
 //可变实例方法（Mutating Instance Methods）
 /*
  通过扩展添加的实例方法也可以修改该实例本身。结构体和枚举类型中修改 self 或其属性的方法必须将该实例方 法标注为 mutating ,正如来自原始实现的修改方法一样。
@@ -224,90 +229,5 @@ printIntegerKinds(numbers: [3, 19, -27, 0, -6, 0, 7])
  函数 printIntegerKinds 的输入是一个 Int 数组值并对其字符进行迭代。在每次迭代过程中,考虑当前字符的 kind 计算属性,并打印出合适的类别描述。
  注意: 由于已知 number.kind 是 Int.Kind 型,所以 Int.Kind 中的所有成员值都可以使用 switch 语句里的形 式简写,比如使用 . Negative 代替 Int.Kind.Negative 。
  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
